@@ -1,0 +1,31 @@
+name: Fichaje COMARB - Entrada
+
+on:
+  # 10:00 ART = 13:00 UTC, de lunes a viernes
+  schedule:
+    - cron: "0 13 * * 1-5"
+
+  # Ejecución manual para testing
+  workflow_dispatch:
+
+jobs:
+  fichaje-entrada:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Registrar ENTRADA
+        env:
+          CADATA_USUARIO: ${{ secrets.CADATA_USUARIO }}
+          CADATA_CLAVE: ${{ secrets.CADATA_CLAVE }}
+        run: python fichaje_comarb.py entrada
