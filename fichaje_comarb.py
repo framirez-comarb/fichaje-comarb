@@ -29,7 +29,7 @@ TZ_AR = timezone(timedelta(hours=-3))
 
 # ─── URLs ────────────────────────────────────────────────────────────────────
 URL_LOGIN_PAGE = "https://cadata.comarb.gob.ar/cadata/login.jsp"
-URL_LOGIN_POST = "https://cadata.comarb.gob.ar/cadata/login.do"
+URL_LOGIN_POST = "https://cadata.comarb.gob.ar/cadata/j_security_check"
 URL_FICHAJE_ENTRADA = "https://cadata.comarb.gob.ar/cadata/ciFichajeList.do"
 URL_FICHAJE_SALIDA = "https://cadata.comarb.gob.ar/cadata/ciFichajeList.do?method=close"
 
@@ -103,8 +103,8 @@ def login(session: requests.Session) -> None:
     # 2. POST login con credenciales
     log.info("Enviando credenciales...")
     resp = session.post(URL_LOGIN_POST, data={
-        "username": usuario,
-        "password": clave,
+        "j_username": usuario,
+        "j_password": clave,
     }, allow_redirects=True)
     resp.raise_for_status()
 
