@@ -35,27 +35,11 @@ URL_FICHAJE_SALIDA = "https://cadata.comarb.gob.ar/cadata/ciFichajeList.do?metho
 
 # ─── Feriados Argentina 2025 y 2026 ─────────────────────────────────────────
 FERIADOS = {
-    # 2025
-    date(2025, 1, 1),    # Año Nuevo
-    date(2025, 3, 3),    # Carnaval
-    date(2025, 3, 4),    # Carnaval
-    date(2025, 3, 24),   # Día de la Memoria
-    date(2025, 4, 2),    # Día del Veterano y de los Caídos de Malvinas
-    date(2025, 4, 18),   # Viernes Santo
-    date(2025, 5, 1),    # Día del Trabajador
-    date(2025, 5, 25),   # Día de la Revolución de Mayo
-    date(2025, 6, 16),   # Paso a la Inmortalidad del Gral. Güemes
-    date(2025, 6, 20),   # Día de la Bandera
-    date(2025, 7, 9),    # Día de la Independencia
-    date(2025, 8, 17),   # Paso a la Inmortalidad del Gral. San Martín
-    date(2025, 10, 12),  # Día del Respeto a la Diversidad Cultural
-    date(2025, 11, 24),  # Día de la Soberanía Nacional
-    date(2025, 12, 8),   # Inmaculada Concepción de María
-    date(2025, 12, 25),  # Navidad
     # 2026
     date(2026, 1, 1),    # Año Nuevo
     date(2026, 2, 16),   # Carnaval
     date(2026, 2, 17),   # Carnaval
+    date(2026, 3, 23),
     date(2026, 3, 24),   # Día de la Memoria
     date(2026, 4, 2),    # Día del Veterano y de los Caídos de Malvinas
     date(2026, 4, 3),    # Viernes Santo
