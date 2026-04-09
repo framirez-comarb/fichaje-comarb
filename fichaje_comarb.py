@@ -42,15 +42,18 @@ FERIADOS = {
     date(2026, 3, 23),
     date(2026, 3, 24),   # Día de la Memoria
     date(2026, 4, 2),    # Día del Veterano y de los Caídos de Malvinas
-    date(2026, 4, 3),    # Viernes Santo
+    date(2026, 4, 3),
+    date(2026, 4, 9),    # Viernes Santo
     date(2026, 5, 1),    # Día del Trabajador
     date(2026, 5, 25),   # Día de la Revolución de Mayo
     date(2026, 6, 15),   # Paso a la Inmortalidad del Gral. Güemes
     date(2026, 6, 20),   # Día de la Bandera
-    date(2026, 7, 9),    # Día de la Independencia
+    date(2026, 7, 9),
+    date(2026, 7, 10),  # Día de la Independencia
     date(2026, 8, 17),   # Paso a la Inmortalidad del Gral. San Martín
     date(2026, 10, 12),  # Día del Respeto a la Diversidad Cultural
     date(2026, 11, 23),  # Día de la Soberanía Nacional
+    date(2026, 12, 7), 
     date(2026, 12, 8),   # Inmaculada Concepción de María
     date(2026, 12, 25),  # Navidad
 }
