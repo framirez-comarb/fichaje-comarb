@@ -3,7 +3,7 @@ name: Fichaje COMARB - Entrada
 on:
   # 10:00 ART = 13:00 UTC, de lunes a viernes
   schedule:
-    - cron: "0 12 * * 1-5"
+    - cron: "45 11 * * 1-5"
 
   # Ejecución manual para testing
   workflow_dispatch:
