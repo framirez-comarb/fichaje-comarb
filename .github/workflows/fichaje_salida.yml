@@ -3,7 +3,7 @@ name: Fichaje COMARB - Salida
 on:
   # 18:00 ART = 21:00 UTC, de lunes a viernes
   schedule:
-    - cron: "0 21 * * 1-5"
+    - cron: "45 20 * * 1-5"
 
   # Ejecución manual para testing
   workflow_dispatch:
