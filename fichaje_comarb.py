@@ -46,6 +46,7 @@ FERIADOS = {
     date(2026, 4, 9),    # Viernes Santo
     date(2026, 5, 1),    # Día del Trabajador
     date(2026, 5, 4),
+    date(2026, 5, 8),
     date(2026, 5, 25),   # Día de la Revolución de Mayo
     date(2026, 6, 15),   # Paso a la Inmortalidad del Gral. Güemes
     date(2026, 6, 20),   # Día de la Bandera
